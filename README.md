@@ -5,7 +5,7 @@ Usage:
 
 `#Include URLEncode.ahk
 
-`payloadString := BuildPayload("api-key", "user-key", "title", "message")
-`SendNotification(payloadString)
+payloadString := BuildPayload("api-key", "user-key", "title", "message")
+SendNotification(payloadString)
 
 That's it
